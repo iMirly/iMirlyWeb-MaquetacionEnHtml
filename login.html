@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar sesión · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="auth">
+
+  <!-- HERO / IMAGEN -->
+  <section class="auth-hero">
+    <img src="assets/images/login.jpg" alt="Iniciar sesión iMirly" class="auth-hero-img" />
+  </section>
+
+  <!-- MAIN -->
+  <main class="auth-main">
+
+    <div class="auth-container">
+
+      <!-- FORM -->
+      <form id="form-login" class="auth-form">
+
+        <div class="form-bloque">
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="form-bloque">
+          <div class="input-password">
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="button" class="toggle-password" aria-label="Mostrar contraseña">
+              <img src="assets/icons/ojo.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-principal">Entrar</button>
+      </form>
+
+      <!-- FOOTER -->
+      <p class="auth-footer">
+        ¿No tienes cuenta?
+        <a href="registro.html">Crear cuenta</a>
+      </p>
+
+    </div>
+
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+
+</html>

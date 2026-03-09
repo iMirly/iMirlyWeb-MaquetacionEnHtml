@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>iMirly · Servicios cerca de ti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Móvil primero -->
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!-- Solo para escritorio -->
+    <link rel="stylesheet" href="css/web.css" media="(min-width: 769px)">
+
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <div id="header"></div>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main">
+
+        <!-- ================= BANNER ================= -->
+        <section class="banner">
+            <div class="banner-content">
+                <h1>
+                    ¿Quién necesita<br>
+                    ayuda hoy,<br>
+                    teniendo <span>iMirly</span>?
+                </h1>
+
+                <button class="banner-btn">
+                    Encuentra un servicio
+                </button>
+            </div>
+        </section>
+
+        <!-- ================= CATEGORÍAS DESTACADAS ================= -->
+        <section class="categorias-destacadas">
+            <h2>Categorías más buscadas</h2>
+
+            <div class="categorias-grid">
+
+                <button class="categoria-card" data-categoria="hogar">
+                    <img src="assets/images/hogar.jpg" alt="Hogar">
+                    <span>Hogar</span>
+                </button>
+
+                <button class="categoria-card" data-categoria="clases">
+                    <img src="assets/images/clases.jpg" alt="Clases">
+                    <span>Clases</span>
+                </button>
+
+                <button class="categoria-card" data-categoria="mascotas">
+                    <img src="assets/images/mascotas.jpg" alt="Mascotas">
+                    <span>Mascotas</span>
+                </button>
+
+                <button class="categoria-card" data-categoria="deporte">
+                    <img src="assets/images/deporte.jpg" alt="Deporte">
+                    <span>Deporte</span>
+                </button>
+
+                <button class="categoria-card" data-categoria="cuidado">
+                    <img src="assets/images/cuidado.jpg" alt="Cuidados">
+                    <span>Cuidados</span>
+                </button>
+
+                <button class="categoria-card" data-categoria="otros">
+                    <img src="assets/images/otros.jpg" alt="Otros">
+                    <span>Otros</span>
+                </button>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+    <div id="bottom-nav"></div>
+
+    <script src="js/app.js"></script>
+    <script src="js/bottom_nav.js"></script>
+    <script src="js/guard.js"></script>
+
+    <!-- Inyección web solo para escritorio -->
+    <script src="js/web-inject.js" defer></script>
+
+</body>
+
+</html>

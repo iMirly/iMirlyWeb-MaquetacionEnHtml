@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">Sobre iMirly</h2>
+  </header>
+
+  <!-- MAIN -->
+  <main class="list-main main">
+
+    <section class="perfil-bloque">
+
+      <button class="perfil-item" onclick="abrirDocumento('terminos', 'Términos y condiciones')">
+        <img src="../assets/icons/terminos_condiciones.png" alt="">
+        <span>Términos y condiciones</span>
+      </button>
+
+      <button class="perfil-item" onclick="abrirDocumento('privacidad', 'Política de privacidad')">
+        <img src="../assets/icons/politica_de_privacidad.png" alt="">
+        <span>Política de privacidad</span>
+      </button>
+
+      <button class="perfil-item" onclick="abrirDocumento('cookies', 'Política de cookies')">
+        <img src="../assets/icons/cookies.png" alt="">
+        <span>Política de cookies</span>
+      </button>
+
+    </section>
+
+  </main>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/perfil/documentos.js"></script>
+
+</body>
+
+</html>

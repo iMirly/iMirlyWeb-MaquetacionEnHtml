@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Página no disponible · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="perfil">
+
+  <header class="list-header">
+    <button class="btn-volver">
+      <img src="assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">No disponible</h2>
+  </header>
+
+  <main class="list-main" style="text-align:center; padding-top:6rem;">
+    <h2 style="color:var(--color-primario); margin-bottom:.5rem;">
+      🚧 En construcción
+    </h2>
+    <p style="color:#6b7280;">
+      Esta sección estará disponible próximamente.
+    </p>
+  </main>
+
+  <script>
+    document.querySelector('.btn-volver')
+      .addEventListener('click', () => history.back());
+  </script>
+
+</body>
+
+</html>

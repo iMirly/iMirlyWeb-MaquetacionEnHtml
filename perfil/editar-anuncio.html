@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Editar anuncio · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body class="perfil">
+
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">Editar anuncio</h2>
+  </header>
+
+  <main class="list-main perfil-main form-main">
+
+    <form id="form-editar-anuncio" class="form-editar-anuncio">
+
+      <section class="form-content">
+
+        <!-- TÍTULO (solo lectura) -->
+        <label>
+          Título
+          <input type="text" id="titulo" disabled>
+        </label>
+
+        <!-- DESCRIPCIÓN -->
+        <label>
+          Descripción
+          <textarea id="descripcion" rows="4"></textarea>
+        </label>
+
+        <!-- CAMPOS DINÁMICOS -->
+        <div id="campos-dinamicos"></div>
+
+        <!-- OCULTAR -->
+        <label class="check-item">
+          <input type="checkbox" id="oculto">
+          Ocultar anuncio
+        </label>
+
+      </section>
+
+      <footer class="form-actions">
+        <button type="submit" class="btn-guardar">
+          Guardar cambios
+        </button>
+      </footer>
+
+    </form>
+
+  </main>
+
+  <script src="../js/perfil/editar-anuncio.js"></script>
+</body>
+
+</html>

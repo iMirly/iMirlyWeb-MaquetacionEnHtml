@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo anuncio · iMirly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+
+    <header class="crear-header">
+        <h1>Nuevo anuncio</h1>
+        <button class="btn-salir" aria-label="Salir">✕</button>
+    </header>
+
+    <main class="main crear-main">
+
+        <div class="form-intro">
+            <h2 id="titulo-subcategoria">Detalles del anuncio</h2>
+            <p>Completa la información específica de tu servicio.</p>
+        </div>
+
+        <!-- FORMULARIO DINÁMICO -->
+        <form id="form-dinamico"></form>
+
+    </main>
+
+    <!-- BOTÓN FIJO (ÚNICO) -->
+    <div class="fixed-cta">
+        <button type="submit" form="form-dinamico" class="btn-principal">
+            Guardar anuncio
+        </button>
+    </div>
+
+    <script src="js/form-builder.js"></script>
+</body>
+
+</html>

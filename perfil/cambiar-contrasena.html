@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cambiar contraseña · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body class="perfil">
+
+  <!-- ================= HEADER ================= -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">Cambiar contraseña</h2>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="list-main perfil-main form-main form-centered">
+
+    <form class="form-editar-perfil" id="formCambiarPassword">
+
+      <!-- ===== CONTENIDO (IGUAL QUE EDITAR PERFIL) ===== -->
+      <section class="form-content">
+
+        <section class="perfil-header-editar-perfil"></section>
+
+        <label>
+          Nueva contraseña
+          <div class="input-password">
+            <input type="password" id="inputPassword" placeholder="Nueva contraseña" required>
+            <button type="button" class="toggle-password">
+              <img src="../assets/icons/ojo.png" alt="Mostrar">
+            </button>
+          </div>
+        </label>
+
+        <label>
+          Repetir contraseña
+          <div class="input-password">
+            <input type="password" id="inputPassword2" placeholder="Repetir contraseña" required>
+            <button type="button" class="toggle-password">
+              <img src="../assets/icons/ojo.png" alt="Mostrar">
+            </button>
+          </div>
+        </label>
+
+      </section>
+
+      <!-- ===== ACCIONES ABAJO  ===== -->
+      <footer class="form-actions">
+        <button type="submit" class="btn-guardar">
+          Guardar
+        </button>
+      </footer>
+
+    </form>
+
+  </main>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="../js/app.js"></script>
+  <script src="../js/perfil/cambiar-contrasena.js"></script>
+
+</body>
+
+</html>

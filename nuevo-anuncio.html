@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo anuncio · iMirly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+
+    <header class="crear-header">
+        <h1>Nuevo anuncio</h1>
+        <button class="btn-salir" aria-label="Salir">✕</button>
+    </header>
+
+    <main class="main crear-main">
+
+        <div class="form-intro">
+            <h2>Crea tu anuncio</h2>
+            <p>
+                Completa la información básica de tu servicio para que los usuarios
+                puedan encontrarte fácilmente.
+            </p>
+        </div>
+
+        <form id="form-paso-1" class="auth-form">
+
+            <div class="form-bloque">
+                <select id="select-categoria" required>
+                    <option value="">Selecciona categoría</option>
+                </select>
+            </div>
+
+            <div class="form-bloque">
+                <select id="select-subcategoria" required disabled>
+                    <option value="">Selecciona subcategoría</option>
+                </select>
+            </div>
+
+            <div class="form-bloque">
+                <select id="select-provincia" required>
+                    <option value="">Selecciona provincia</option>
+                </select>
+            </div>
+
+            <div class="form-bloque">
+                <label>Título del anuncio</label>
+                <input type="text" id="titulo" required placeholder="Ej: Clases de piano para principiantes">
+            </div>
+
+            <div class="form-bloque">
+                <label>Descripción</label>
+                <textarea id="descripcion" rows="4" required placeholder="Describe tu servicio..."></textarea>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-principal">
+                    Continuar
+                </button>
+            </div>
+
+        </form>
+
+    </main>
+
+    <script src="js/app.js"></script>
+    <script src="js/nuevo-anuncio.js"></script>
+
+</body>
+
+</html>

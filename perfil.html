@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="has-fixed-bottom-nav">
+
+
+  <!-- ================= MAIN ================= -->
+  <main class="list-main perfil-main">
+
+    <!-- ===== CABECERA PERFIL ===== -->
+    <section class="perfil-header">
+      <div class="avatar-wrapper">
+        <img class="avatar-grande" id="avatarPerfil" src="assets/icons/usuario.png" alt="Foto de perfil">
+        <a href="perfil/editar-perfil.html" class="btn-editar-avatar">
+          <img src="assets/icons/editar_perfil.png" alt="Editar">
+        </a>
+      </div>
+      <h2 id="perfil-nombre">Usuario</h2>
+      <p id="perfil-email">email@ejemplo.com</p>
+    </section>
+
+    <!-- ===== TRANSACCIONES ===== -->
+    <section class="perfil-bloque">
+      <h4 class="perfil-titulo">TRANSACCIONES</h4>
+
+      <a href="perfil/mis-anuncios.html" class="perfil-item btn-mis-anuncios">
+        <img src="assets/icons/anuncio_publicitario.png" alt="">
+        <span>Mis anuncios</span>
+        <!-- ESTE ES EL BADGE QUE FALTA -->
+        <span class="perfil-badge" id="contador-anuncios">0</span>
+      </a>
+
+      <a href="perfil/saldo.html" class="perfil-item btn-saldo">
+        <img src="assets/icons/euro.png" alt="">
+        <span>Saldo</span>
+      </a>
+    </section>
+
+    <!-- ===== TU USUARIO ===== -->
+    <section class="perfil-bloque">
+      <h4 class="perfil-titulo">TU USUARIO</h4>
+      <a href="perfil/editar-perfil.html" class="perfil-item btn-datos">
+        <img src="assets/icons/usuario.png" alt="Datos">
+        <span>Datos personales</span>
+      </a>
+      <a href="perfil/cambiar-contrasena.html" class="perfil-item btn-password">
+        <img src="assets/icons/restablecer_la_contrasena.png" alt="Contraseña">
+        <span>Cambiar contraseña</span>
+      </a>
+    </section>
+
+    <!-- ===== IMIRLY ===== -->
+    <section class="perfil-bloque">
+      <h4 class="perfil-titulo">IMIRLY</h4>
+      <a href="perfil/que-es-imirly.html" class="perfil-item btn-que-es">
+        <img src="assets/icons/informacion.png" alt="Qué es iMirly">
+        <span>Qué es iMirly</span>
+      </a>
+      <a href="perfil/sobre-imirly.html" class="perfil-item btn-sobre">
+        <img src="assets/icons/grupo.png" alt="Sobre iMirly">
+        <span>Sobre iMirly</span>
+      </a>
+    </section>
+
+    <!-- ===== SOPORTE ===== -->
+    <section class="perfil-bloque">
+      <h4 class="perfil-titulo">CENTRO DE SOPORTE</h4>
+      <a href="perfil/ayuda.html" class="perfil-item btn-ayuda">
+        <img src="assets/icons/auriculares.png" alt="Ayuda">
+        <span>Ayuda</span>
+      </a>
+      <a href="perfil/contacto.html" class="perfil-item btn-contacto">
+        <img src="assets/icons/llamada_telefonica.png" alt="Contacto">
+        <span>Contacta con nosotros</span>
+      </a>
+      <a href="#" class="perfil-item cerrar-sesion">
+        <img src="assets/icons/cerrar_sesion.png" alt="Cerrar sesión">
+        <span>Cerrar sesión</span>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER (vacío) ================= -->
+  <footer id="footer"></footer>
+
+  <!-- ================= BOTTOM NAV (vacío) ================= -->
+  <div id="bottom-nav"></div>
+
+  <!-- ================= MODAL LOGOUT ================= -->
+  <div id="modal-logout" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-box">
+      <p class="modal-text">¿Seguro que quieres cerrar sesión?</p>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="btn-cancelar">Cancelar</button>
+        <button class="modal-btn danger" id="btn-confirmar">Cerrar sesión</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/auth-check.js"></script>
+  <script src="js/perfil.js"></script>
+  <script src="js/bottom_nav.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crear cuenta · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="auth">
+  <section class="auth-hero">
+    <img src="assets/images/registro.jpg" alt="Bienvenida iMirly" class="auth-hero-img" />
+  </section>
+
+  <main class="auth-main">
+    <div class="auth-container">
+      <form id="form-registro" class="auth-form">
+        <div class="form-bloque">
+          <input type="text" name="nombre" placeholder="Nombre" required>
+        </div>
+
+        <div class="form-bloque">
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="form-bloque">
+          <div class="input-password">
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="button" class="toggle-password" aria-label="Mostrar contraseña">
+              <img src="assets/icons/ojo.png" alt="Mostrar/ocultar">
+            </button>
+          </div>
+        </div>
+
+        <div class="form-bloque">
+          <div class="input-password">
+            <input type="password" name="password2" placeholder="Repetir contraseña" required>
+            <button type="button" class="toggle-password" aria-label="Mostrar contraseña">
+              <img src="assets/icons/ojo.png" alt="Mostrar/ocultar">
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-principal">Crear cuenta</button>
+      </form>
+
+      <p class="auth-footer">
+        ¿Ya tienes cuenta?
+        <a href="login.html">Inicia sesión</a>
+      </p>
+    </div>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+
+</html>

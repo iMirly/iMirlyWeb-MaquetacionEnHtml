@@ -1,0 +1,955 @@
+[
+  {
+    "id": "mock-1",
+    "categoria": "hogar",
+    "subcategoria": "limpieza",
+    "nombre": "Isabel",
+    "provincia": "Granada",
+    "titulo": "Limpieza de casas por horas",
+    "descripcion": "Limpieza general, profunda y fin de obra.",
+    "fecha": "2025-01-01",
+    "detalles": {
+      "precio_hora": 13.5,
+      "tipo_limpieza": ["Limpieza general", "Limpieza profunda"],
+      "materiales": true,
+      "experiencia": "3-5"
+    }
+  },
+  {
+    "id": "mock-2",
+    "categoria": "hogar",
+    "subcategoria": "limpieza",
+    "nombre": "Laura",
+    "provincia": "Málaga",
+    "titulo": "Servicio de limpieza profesional",
+    "descripcion": "Especialista en limpieza por horas.",
+    "fecha": "2025-01-03",
+    "detalles": {
+      "precio_hora": 12,
+      "tipo_limpieza": ["Limpieza por horas"],
+      "materiales": false,
+      "experiencia": "1-2"
+    }
+  },
+  {
+    "id": "mock-3",
+    "categoria": "hogar",
+    "subcategoria": "plancha",
+    "nombre": "María",
+    "provincia": "Sevilla",
+    "titulo": "Planchado profesional a domicilio",
+    "descripcion": "Plancho todo tipo de prendas con cuidado y eficiencia.",
+    "fecha": "2025-01-05",
+    "detalles": {
+      "precio_hora": 10,
+      "tipo_prendas": ["Ropa diaria", "Camisas", "Ropa de cama"],
+      "servicio_domicilio": true
+    }
+  },
+  {
+    "id": "mock-4",
+    "categoria": "hogar",
+    "subcategoria": "montaje",
+    "nombre": "Carlos",
+    "provincia": "Madrid",
+    "titulo": "Montaje de muebles y estanterías",
+    "descripcion": "Experto en montaje de todo tipo de muebles.",
+    "fecha": "2025-01-07",
+    "detalles": {
+      "precio_hora": 18,
+      "tipo_montajes": ["Muebles", "Estanterías", "Armarios"],
+      "herramientas": true
+    }
+  },
+  {
+    "id": "mock-5",
+    "categoria": "hogar",
+    "subcategoria": "mudanzas",
+    "nombre": "Antonio",
+    "provincia": "Barcelona",
+    "titulo": "Mudanzas locales y provinciales",
+    "descripcion": "Servicio completo de mudanzas con vehículo propio.",
+    "fecha": "2025-01-08",
+    "detalles": {
+      "precio_servicio": 250,
+      "tipo_mudanza": ["Local", "Provincial"],
+      "vehiculo": true
+    }
+  },
+  {
+    "id": "mock-6",
+    "categoria": "hogar",
+    "subcategoria": "fontaneria",
+    "nombre": "Javier",
+    "provincia": "Valencia",
+    "titulo": "Fontanero experto en reparaciones urgentes",
+    "descripcion": "Resuelvo fugas, atascos y todo tipo de problemas de fontanería.",
+    "fecha": "2025-01-10",
+    "detalles": {
+      "precio_servicio": 45,
+      "tipo_trabajos": ["Fugas", "Atascos", "Reparaciones urgentes"],
+      "urgencias": true
+    }
+  },
+  {
+    "id": "mock-7",
+    "categoria": "hogar",
+    "subcategoria": "pintura",
+    "nombre": "Miguel",
+    "provincia": "Bilbao",
+    "titulo": "Pintor profesional para interiores",
+    "descripcion": "Pintura de calidad para hogares y negocios.",
+    "fecha": "2025-01-12",
+    "detalles": {
+      "precio_metro": 8.5,
+      "tipo_pintura": ["Interior", "Texturizada"],
+      "materiales": false
+    }
+  },
+  {
+    "id": "mock-8",
+    "categoria": "hogar",
+    "subcategoria": "electricista",
+    "nombre": "Roberto",
+    "provincia": "Zaragoza",
+    "titulo": "Electricista certificado",
+    "descripcion": "Instalaciones y reparaciones eléctricas.",
+    "fecha": "2025-01-14",
+    "detalles": {
+      "precio_hora": 25,
+      "servicios": ["Instalaciones", "Reparaciones", "Iluminación"]
+    }
+  },
+  {
+    "id": "mock-9",
+    "categoria": "hogar",
+    "subcategoria": "electrodomesticos",
+    "nombre": "Sergio",
+    "provincia": "Murcia",
+    "titulo": "Reparación de electrodomésticos",
+    "descripcion": "Especialista en lavadoras y frigoríficos.",
+    "fecha": "2025-01-15",
+    "detalles": {
+      "precio_servicio": 40,
+      "tipo_electrodomesticos": ["Frigoríficos", "Lavadoras"]
+    }
+  },
+  {
+    "id": "mock-10",
+    "categoria": "hogar",
+    "subcategoria": "reformas",
+    "nombre": "Diego",
+    "provincia": "Alicante",
+    "titulo": "Reformas integrales de baños y cocinas",
+    "descripcion": "Transformo tus espacios con calidad y rapidez.",
+    "fecha": "2025-01-16",
+    "detalles": {
+      "precio_presupuesto": 1200,
+      "tipo_reformas": ["Cocinas", "Baños"]
+    }
+  },
+  {
+    "id": "mock-11",
+    "categoria": "hogar",
+    "subcategoria": "jardineria",
+    "nombre": "Fernando",
+    "provincia": "Córdoba",
+    "titulo": "Jardinería y mantenimiento de exteriores",
+    "descripcion": "Diseño y cuidado de jardines particulares.",
+    "fecha": "2025-01-18",
+    "detalles": {
+      "precio_hora": 15,
+      "servicios": ["Poda", "Riego", "Mantenimiento"]
+    }
+  },
+  {
+    "id": "mock-12",
+    "categoria": "hogar",
+    "subcategoria": "cerrajero",
+    "nombre": "Álvaro",
+    "provincia": "Valladolid",
+    "titulo": "Cerrajero de confianza",
+    "descripcion": "Aperturas urgentes y cambio de cerraduras.",
+    "fecha": "2025-01-20",
+    "detalles": {
+      "precio_servicio": 35,
+      "servicios": ["Aperturas", "Cambio de cerraduras", "Copias de llaves"]
+    }
+  },
+  {
+    "id": "mock-13",
+    "categoria": "hogar",
+    "subcategoria": "climatizacion",
+    "nombre": "Raúl",
+    "provincia": "Girona",
+    "titulo": "Instalación de aire acondicionado",
+    "descripcion": "Instalación y mantenimiento de sistemas de climatización.",
+    "fecha": "2025-01-22",
+    "detalles": {
+      "precio_servicio": 180,
+      "tipo_instalaciones": ["Aire acondicionado", "Calefacción"]
+    }
+  },
+  {
+    "id": "mock-14",
+    "categoria": "hogar",
+    "subcategoria": "cocina",
+    "nombre": "Chef Martín",
+    "provincia": "San Sebastián",
+    "titulo": "Chef a domicilio para eventos especiales",
+    "descripcion": "Creo menús personalizados para tus ocasiones especiales.",
+    "fecha": "2025-01-24",
+    "detalles": {
+      "precio_hora": 35,
+      "servicios": ["Chef a domicilio", "Catering", "Menús especiales"]
+    }
+  },
+  {
+    "id": "mock-15",
+    "categoria": "clases",
+    "subcategoria": "colegio",
+    "nombre": "Profesora Ana",
+    "provincia": "Madrid",
+    "titulo": "Clases particulares de primaria y secundaria",
+    "descripcion": "Refuerzo escolar para todas las asignaturas.",
+    "fecha": "2025-01-25",
+    "detalles": {
+      "asignaturas": ["Matemáticas", "Lengua", "Inglés", "Ciencias"],
+      "online": true,
+      "titulo": true,
+      "precio_hora": 18
+    }
+  },
+  {
+    "id": "mock-16",
+    "categoria": "clases",
+    "subcategoria": "idiomas",
+    "nombre": "Teacher John",
+    "provincia": "Barcelona",
+    "titulo": "Clases de inglés para todos los niveles",
+    "descripcion": "Inglés nativo con experiencia en preparación de exámenes oficiales.",
+    "fecha": "2025-01-26",
+    "detalles": {
+      "idiomas": ["Inglés"],
+      "niveles": ["Principiante", "Intermedio", "Avanzado", "Conversación"],
+      "online": true,
+      "precio_hora": 20
+    }
+  },
+  {
+    "id": "mock-17",
+    "categoria": "clases",
+    "subcategoria": "musica",
+    "nombre": "Marta",
+    "provincia": "Valencia",
+    "titulo": "Clases de piano y guitarra",
+    "descripcion": "Profesora de música con más de 10 años de experiencia.",
+    "fecha": "2025-01-27",
+    "detalles": {
+      "instrumentos": ["Piano", "Guitarra"],
+      "niveles": ["Principiante", "Intermedio", "Avanzado"],
+      "precio_hora": 22
+    }
+  },
+  {
+    "id": "mock-18",
+    "categoria": "clases",
+    "subcategoria": "dibujo",
+    "nombre": "Luis",
+    "provincia": "Sevilla",
+    "titulo": "Clases de dibujo artístico",
+    "descripcion": "Aprende técnicas de dibujo tradicional y digital.",
+    "fecha": "2025-01-28",
+    "detalles": {
+      "tecnicas": ["Lápiz", "Acuarela", "Digital"],
+      "online": false,
+      "precio_hora": 16
+    }
+  },
+  {
+    "id": "mock-19",
+    "categoria": "clases",
+    "subcategoria": "baile",
+    "nombre": "Carmen",
+    "provincia": "Málaga",
+    "titulo": "Clases de salsa y bachata",
+    "descripcion": "Aprende a bailar ritmos latinos de forma divertida.",
+    "fecha": "2025-01-29",
+    "detalles": {
+      "estilos": ["Salsa", "Bachata"],
+      "niveles": ["Principiante", "Intermedio"],
+      "precio_hora": 15
+    }
+  },
+  {
+    "id": "mock-20",
+    "categoria": "clases",
+    "subcategoria": "eso",
+    "nombre": "Profesor David",
+    "provincia": "Granada",
+    "titulo": "Refuerzo para estudiantes de E.S.O",
+    "descripcion": "Especialista en matemáticas y física para secundaria.",
+    "fecha": "2025-01-30",
+    "detalles": {
+      "asignaturas": ["Matemáticas", "Física", "Química"],
+      "online": true,
+      "precio_hora": 17
+    }
+  },
+  {
+    "id": "mock-21",
+    "categoria": "deporte",
+    "subcategoria": "boxeo",
+    "nombre": "Mike",
+    "provincia": "Madrid",
+    "titulo": "Entrenador de boxeo para principiantes",
+    "descripcion": "Clases de boxeo para fitness y técnica básica.",
+    "fecha": "2025-02-01",
+    "detalles": {
+      "niveles": ["Principiante", "Intermedio"],
+      "online": false,
+      "precio_sesion": 25
+    }
+  },
+  {
+    "id": "mock-22",
+    "categoria": "deporte",
+    "subcategoria": "entrenador",
+    "nombre": "Sandra",
+    "provincia": "Barcelona",
+    "titulo": "Entrenadora personal especializada en fitness",
+    "descripcion": "Programas personalizados para alcanzar tus objetivos.",
+    "fecha": "2025-02-02",
+    "detalles": {
+      "especialidad": ["Fitness", "Running"],
+      "online": true,
+      "precio_sesion": 30
+    }
+  },
+  {
+    "id": "mock-23",
+    "categoria": "deporte",
+    "subcategoria": "yoga",
+    "nombre": "Priya",
+    "provincia": "Valencia",
+    "titulo": "Clases de yoga para la relajación",
+    "descripcion": "Instructora certificada de Hatha y Vinyasa yoga.",
+    "fecha": "2025-02-03",
+    "detalles": {
+      "estilos": ["Hatha", "Vinyasa"],
+      "online": true,
+      "precio_sesion": 20
+    }
+  },
+  {
+    "id": "mock-24",
+    "categoria": "deporte",
+    "subcategoria": "pilates",
+    "nombre": "Elena",
+    "provincia": "Sevilla",
+    "titulo": "Instructora de pilates en máquinas",
+    "descripcion": "Pilates terapéutico y de rehabilitación.",
+    "fecha": "2025-02-04",
+    "detalles": {
+      "tipos": ["Máquinas"],
+      "online": false,
+      "precio_sesion": 22
+    }
+  },
+  {
+    "id": "mock-25",
+    "categoria": "deporte",
+    "subcategoria": "padel",
+    "nombre": "Pablo",
+    "provincia": "Marbella",
+    "titulo": "Entrenador de pádel para todos los niveles",
+    "descripcion": "Mejora tu técnica y juego en la pista.",
+    "fecha": "2025-02-05",
+    "detalles": {
+      "niveles": ["Principiante", "Intermedio", "Avanzado"],
+      "precio_hora": 28
+    }
+  },
+  {
+    "id": "mock-26",
+    "categoria": "deporte",
+    "subcategoria": "tenis",
+    "nombre": "Rafael",
+    "provincia": "Mallorca",
+    "titulo": "Clases de tenis para adultos y niños",
+    "descripcion": "Entrenador con experiencia en competición.",
+    "fecha": "2025-02-06",
+    "detalles": {
+      "niveles": ["Principiante", "Intermedio"],
+      "precio_hora": 25
+    }
+  },
+  {
+    "id": "mock-27",
+    "categoria": "mascotas",
+    "subcategoria": "paseador",
+    "nombre": "Lucía",
+    "provincia": "Madrid",
+    "titulo": "Paseadora de perros responsable",
+    "descripcion": "Paseos individuales o en grupo para tu mascota.",
+    "fecha": "2025-02-07",
+    "detalles": {
+      "experiencia": "3-5",
+      "tipos_perros": ["Cachorros", "Senior"],
+      "precio_paseo": 12
+    }
+  },
+  {
+    "id": "mock-28",
+    "categoria": "mascotas",
+    "subcategoria": "cuidador",
+    "nombre": "Mónica",
+    "provincia": "Barcelona",
+    "titulo": "Cuidadora de mascotas a domicilio",
+    "descripcion": "Cuidado amoroso mientras estás fuera de casa.",
+    "fecha": "2025-02-08",
+    "detalles": {
+      "tipo_cuidado": ["A domicilio", "Alojamiento nocturno"],
+      "experiencia": "6-10"
+    }
+  },
+  {
+    "id": "mock-29",
+    "categoria": "mascotas",
+    "subcategoria": "peluqueria_mascotas",
+    "nombre": "Estela",
+    "provincia": "Valencia",
+    "titulo": "Peluquería canina y felina",
+    "descripcion": "Corte, baño y cuidado estético para tu mascota.",
+    "fecha": "2025-02-09",
+    "detalles": {
+      "tipo_mascotas": ["Perros", "Gatos"],
+      "servicios": ["Corte", "Baño", "Cepillado"],
+      "precio_servicio": 25
+    }
+  },
+  {
+    "id": "mock-30",
+    "categoria": "mascotas",
+    "subcategoria": "adiestrador",
+    "nombre": "Kiko",
+    "provincia": "Sevilla",
+    "titulo": "Adiestramiento canino con refuerzo positivo",
+    "descripcion": "Educación básica y solución de problemas de conducta.",
+    "fecha": "2025-02-10",
+    "detalles": {
+      "tecnicas": ["Refuerzo positivo", "Obediencia básica", "Socialización"],
+      "experiencia": "+10",
+      "precio_sesion": 35
+    }
+  },
+  {
+    "id": "mock-31",
+    "categoria": "mascotas",
+    "subcategoria": "conducta",
+    "nombre": "Veterinario Alex",
+    "provincia": "Málaga",
+    "titulo": "Especialista en modificación de conducta canina",
+    "descripcion": "Tratamiento de agresividad, ansiedad y miedos.",
+    "fecha": "2025-02-11",
+    "detalles": {
+      "problemas": ["Agresividad", "Ansiedad", "Miedo"],
+      "experiencia": "6-10",
+      "precio_consulta": 45
+    }
+  },
+  {
+    "id": "mock-32",
+    "categoria": "belleza",
+    "subcategoria": "depilacion",
+    "nombre": "Claudia",
+    "provincia": "Madrid",
+    "titulo": "Depilación con cera y láser",
+    "descripcion": "Servicio profesional de depilación en zona céntrica.",
+    "fecha": "2025-02-12",
+    "detalles": {
+      "tecnica": ["Cera", "Láser"],
+      "zonas": ["Cejas", "Piernas", "Axilas", "Ingle"],
+      "precio_zona": 8
+    }
+  },
+  {
+    "id": "mock-33",
+    "categoria": "belleza",
+    "subcategoria": "unas",
+    "nombre": "Natalia",
+    "provincia": "Barcelona",
+    "titulo": "Uñas de gel y acrílicas",
+    "descripcion": "Manicura y pedicura con los mejores productos.",
+    "fecha": "2025-02-13",
+    "detalles": {
+      "servicios": ["Manicura", "Pedicura", "Uñas acrílicas", "Gel"],
+      "precio_servicio": 20
+    }
+  },
+  {
+    "id": "mock-34",
+    "categoria": "belleza",
+    "subcategoria": "peluqueria",
+    "nombre": "Salvador",
+    "provincia": "Valencia",
+    "titulo": "Peluquería unisex de tendencia",
+    "descripcion": "Corte, color y peinados para hombre y mujer.",
+    "fecha": "2025-02-14",
+    "detalles": {
+      "servicios": ["Corte", "Tinte", "Mechas", "Tratamientos"],
+      "precio_servicio": 25
+    }
+  },
+  {
+    "id": "mock-35",
+    "categoria": "belleza",
+    "subcategoria": "maquillaje",
+    "nombre": "Sofía",
+    "provincia": "Sevilla",
+    "titulo": "Maquilladora profesional para bodas",
+    "descripcion": "Maquillaje de novias y eventos especiales.",
+    "fecha": "2025-02-15",
+    "detalles": {
+      "ocasiones": ["Bodas", "Eventos", "Fotografía"],
+      "a_domicilio": true,
+      "precio_servicio": 60
+    }
+  },
+  {
+    "id": "mock-36",
+    "categoria": "belleza",
+    "subcategoria": "facial",
+    "nombre": "Beatriz",
+    "provincia": "Málaga",
+    "titulo": "Tratamientos faciales personalizados",
+    "descripcion": "Limpieza facial profunda y tratamientos antiedad.",
+    "fecha": "2025-02-16",
+    "detalles": {
+      "tratamientos": ["Limpieza", "Hidratación", "Antiedad"],
+      "precio_sesion": 35
+    }
+  },
+  {
+    "id": "mock-37",
+    "categoria": "belleza",
+    "subcategoria": "masajes",
+    "nombre": "Jorge",
+    "provincia": "Granada",
+    "titulo": "Masajes terapéuticos y relajantes",
+    "descripcion": "Alivio del estrés y dolores musculares.",
+    "fecha": "2025-02-17",
+    "detalles": {
+      "tipos": ["Relajante", "Terapéutico"],
+      "a_domicilio": true,
+      "precio_sesion": 40
+    }
+  },
+  {
+    "id": "mock-38",
+    "categoria": "cuidados",
+    "subcategoria": "ninos",
+    "nombre": "Cristina",
+    "provincia": "Madrid",
+    "titulo": "Canguro experimentada para niños",
+    "descripcion": "Cuidado responsable y actividades educativas.",
+    "fecha": "2025-02-18",
+    "detalles": {
+      "edad": ["Bebés", "3-6 años"],
+      "precio_hora": 10
+    }
+  },
+  {
+    "id": "mock-39",
+    "categoria": "cuidados",
+    "subcategoria": "ancianos",
+    "nombre": "Rosa",
+    "provincia": "Barcelona",
+    "titulo": "Cuidadora de ancianos con experiencia",
+    "descripcion": "Acompañamiento y asistencia para personas mayores.",
+    "fecha": "2025-02-19",
+    "detalles": {
+      "tipo_cuidado": ["Acompañamiento", "Medicaciones"],
+      "experiencia": "+5"
+    }
+  },
+  {
+    "id": "mock-40",
+    "categoria": "otros",
+    "subcategoria": "foto",
+    "nombre": "Fotógrafo Carlos",
+    "provincia": "Valencia",
+    "titulo": "Fotógrafo de retratos y eventos",
+    "descripcion": "Capturo los momentos más especiales.",
+    "fecha": "2025-02-20",
+    "detalles": {
+      "tipo_fotografia": ["Retratos", "Bodas", "Eventos"],
+      "precio_sesion": 150
+    }
+  },
+  {
+    "id": "mock-41",
+    "categoria": "otros",
+    "subcategoria": "video",
+    "nombre": "Videógrafo Luis",
+    "provincia": "Sevilla",
+    "titulo": "Videos corporativos y de eventos",
+    "descripcion": "Producción audiovisual profesional.",
+    "fecha": "2025-02-21",
+    "detalles": {
+      "tipo_video": ["Corporativo", "Eventos", "Bodas"],
+      "precio_proyecto": 300
+    }
+  },
+  {
+    "id": "mock-42",
+    "categoria": "otros",
+    "subcategoria": "tattoo",
+    "nombre": "Tatuador Leo",
+    "provincia": "Málaga",
+    "titulo": "Tatuajes personalizados al mejor precio",
+    "descripcion": "Especialista en tatuajes realistas y geométricos.",
+    "fecha": "2025-02-22",
+    "detalles": {
+      "estilos": ["Realista", "Geométrico"],
+      "precio_hora": 80
+    }
+  },
+  {
+    "id": "mock-43",
+    "categoria": "otros",
+    "subcategoria": "informatica",
+    "nombre": "Informático Roberto",
+    "provincia": "Granada",
+    "titulo": "Reparación de ordenadores y redes",
+    "descripcion": "Solución rápida a problemas informáticos.",
+    "fecha": "2025-02-23",
+    "detalles": {
+      "servicios": ["Reparación", "Formateo", "Redes"],
+      "precio_servicio": 30
+    }
+  },
+  {
+    "id": "mock-44",
+    "categoria": "otros",
+    "subcategoria": "redes_sociales",
+    "nombre": "Community Manager Ana",
+    "provincia": "Madrid",
+    "titulo": "Gestión de redes sociales para empresas",
+    "descripcion": "Aumento tu presencia digital y engagement.",
+    "fecha": "2025-02-24",
+    "detalles": {
+      "servicios": ["Gestión", "Contenido", "Publicidad"],
+      "precio_mensual": 200
+    }
+  },
+  {
+    "id": "mock-45",
+    "categoria": "otros",
+    "subcategoria": "web",
+    "nombre": "Desarrollador Web David",
+    "provincia": "Barcelona",
+    "titulo": "Desarrollo de páginas web a medida",
+    "descripcion": "Creación de sitios web responsive y optimizados.",
+    "fecha": "2025-02-25",
+    "detalles": {
+      "servicios": ["Diseño", "Programación", "SEO"],
+      "precio_proyecto": 800
+    }
+  },
+  {
+    "id": "mock-46",
+    "categoria": "hogar",
+    "subcategoria": "limpieza",
+    "nombre": "Elena Martínez",
+    "provincia": "Toledo",
+    "titulo": "Limpieza profesional con productos ecológicos",
+    "descripcion": "Especializada en limpieza profunda con atención al detalle.",
+    "fecha": "2025-03-01",
+    "detalles": {
+      "precio_hora": 16.5,
+      "tipo_limpieza": ["Limpieza profunda", "Limpieza de fin de obra"],
+      "materiales": true,
+      "experiencia": "6-10"
+    }
+  },
+  {
+    "id": "mock-47",
+    "categoria": "hogar",
+    "subcategoria": "plancha",
+    "nombre": "Juan Carlos",
+    "provincia": "Salamanca",
+    "titulo": "Planchado express para empresas",
+    "descripcion": "Servicio rápido para hoteles y restaurantes.",
+    "fecha": "2025-03-02",
+    "detalles": {
+      "precio_hora": 14,
+      "tipo_prendas": ["Ropa de cama", "Uniformes"],
+      "servicio_domicilio": false
+    }
+  },
+  {
+    "id": "mock-48",
+    "categoria": "clases",
+    "subcategoria": "idiomas",
+    "nombre": "Marie Dubois",
+    "provincia": "Girona",
+    "titulo": "Profesora nativa de francés",
+    "descripcion": "Clases particulares de francés para todos los niveles.",
+    "fecha": "2025-03-03",
+    "detalles": {
+      "idiomas": ["Francés"],
+      "niveles": ["Principiante", "Intermedio", "Avanzado"],
+      "online": true,
+      "precio_hora": 25
+    }
+  },
+  {
+    "id": "mock-49",
+    "categoria": "deporte",
+    "subcategoria": "yoga",
+    "nombre": "Ravi Kumar",
+    "provincia": "Madrid",
+    "titulo": "Yoga terapéutico para dolencias de espalda",
+    "descripcion": "Especialista en yoga para rehabilitación.",
+    "fecha": "2025-03-04",
+    "detalles": {
+      "estilos": ["Hatha", "Yin"],
+      "online": false,
+      "precio_sesion": 28
+    }
+  },
+  {
+    "id": "mock-50",
+    "categoria": "mascotas",
+    "subcategoria": "paseador",
+    "nombre": "Tomás Herrera",
+    "provincia": "Barcelona",
+    "titulo": "Paseos para perros grandes y activos",
+    "descripcion": "Especializado en razas grandes y con mucha energía.",
+    "fecha": "2025-03-05",
+    "detalles": {
+      "experiencia": "3-5",
+      "tipos_perros": ["Gigantes (+40kg)", "PPP"],
+      "precio_paseo": 15
+    }
+  },
+  {
+    "id": "mock-51",
+    "categoria": "belleza",
+    "subcategoria": "depilacion",
+    "nombre": "Leticia Ramos",
+    "provincia": "Valencia",
+    "titulo": "Depilación definitiva con láser diodo",
+    "descripcion": "Tecnología avanzada para resultados permanentes.",
+    "fecha": "2025-03-06",
+    "detalles": {
+      "tecnica": ["Láser"],
+      "zonas": ["Piernas completas", "Axilas", "Brazos", "Línea de bikini"],
+      "precio_zona": 12
+    }
+  },
+  {
+    "id": "mock-52",
+    "categoria": "cuidados",
+    "subcategoria": "ninos",
+    "nombre": "Patricia López",
+    "provincia": "Sevilla",
+    "titulo": "Canguro nocturna para padres trabajadores",
+    "descripcion": "Cuidado por las noches y fines de semana.",
+    "fecha": "2025-03-07",
+    "detalles": {
+      "edad": ["Bebés", "3-6 años", "7-12 años"],
+      "precio_hora": 12
+    }
+  },
+  {
+    "id": "mock-53",
+    "categoria": "otros",
+    "subcategoria": "foto",
+    "nombre": "FotoStudio Pro",
+    "provincia": "Málaga",
+    "titulo": "Fotografía de producto para e-commerce",
+    "descripcion": "Especializados en fotografía comercial y catálogos.",
+    "fecha": "2025-03-08",
+    "detalles": {
+      "tipo_fotografia": ["Producto"],
+      "precio_sesion": 200
+    }
+  },
+  {
+    "id": "mock-54",
+    "categoria": "hogar",
+    "subcategoria": "fontaneria",
+    "nombre": "Fontanería Rápida SL",
+    "provincia": "Zaragoza",
+    "titulo": "Servicio 24 horas para emergencias",
+    "descripcion": "Disponibles las 24 horas para cualquier urgencia.",
+    "fecha": "2025-03-09",
+    "detalles": {
+      "precio_servicio": 60,
+      "tipo_trabajos": ["Fugas", "Atascos", "Reparaciones urgentes"],
+      "urgencias": true
+    }
+  },
+  {
+    "id": "mock-55",
+    "categoria": "clases",
+    "subcategoria": "musica",
+    "nombre": "Maestro Giovanni",
+    "provincia": "Palma de Mallorca",
+    "titulo": "Clases de canto lírico y moderno",
+    "descripcion": "Técnica vocal para todos los estilos musicales.",
+    "fecha": "2025-03-10",
+    "detalles": {
+      "instrumentos": ["Canto"],
+      "niveles": ["Principiante", "Intermedio", "Avanzado"],
+      "precio_hora": 30
+    }
+  },
+  {
+    "id": "mock-56",
+    "categoria": "deporte",
+    "subcategoria": "entrenador",
+    "nombre": "Iron Fitness",
+    "provincia": "Bilbao",
+    "titulo": "Preparación física para competiciones",
+    "descripcion": "Entrenamiento específico para culturismo y fitness.",
+    "fecha": "2025-03-11",
+    "detalles": {
+      "especialidad": ["Fitness"],
+      "online": true,
+      "precio_sesion": 35
+    }
+  },
+  {
+    "id": "mock-57",
+    "categoria": "mascotas",
+    "subcategoria": "cuidador",
+    "nombre": "Pet Paradise",
+    "provincia": "Alicante",
+    "titulo": "Guardería diurna para mascotas",
+    "descripcion": "Espacio amplio con zona de juegos y descanso.",
+    "fecha": "2025-03-12",
+    "detalles": {
+      "tipo_cuidado": ["Guardería de día"],
+      "experiencia": "3-5"
+    }
+  },
+  {
+    "id": "mock-58",
+    "categoria": "belleza",
+    "subcategoria": "unas",
+    "nombre": "Nails Art Studio",
+    "provincia": "Córdoba",
+    "titulo": "Uñas esculpidas con diseños personalizados",
+    "descripcion": "Especialistas en nail art y técnicas innovadoras.",
+    "fecha": "2025-03-13",
+    "detalles": {
+      "servicios": ["Uñas acrílicas", "Gel", "Decoración"],
+      "precio_servicio": 30
+    }
+  },
+  {
+    "id": "mock-59",
+    "categoria": "cuidados",
+    "subcategoria": "ancianos",
+    "nombre": "Asistencia Dorada",
+    "provincia": "Murcia",
+    "titulo": "Cuidado integral para personas mayores",
+    "descripcion": "Asistencia completa incluyendo acompañamiento médico.",
+    "fecha": "2025-03-14",
+    "detalles": {
+      "tipo_cuidado": ["Acompañamiento", "Higiene", "Medicaciones"],
+      "experiencia": "+5"
+    }
+  },
+  {
+    "id": "mock-60",
+    "categoria": "otros",
+    "subcategoria": "tattoo",
+    "nombre": "Ink Masters",
+    "provincia": "Las Palmas",
+    "titulo": "Estudio de tatuajes tradicionales americanos",
+    "descripcion": "Especialistas en estilo old school y tradicional.",
+    "fecha": "2025-03-15",
+    "detalles": {
+      "estilos": ["Tradicional"],
+      "precio_hora": 90
+    }
+  },
+  {
+    "id": "mock-61",
+    "categoria": "hogar",
+    "subcategoria": "electricista",
+    "nombre": "Electro-Seguro",
+    "provincia": "Vigo",
+    "titulo": "Certificación eléctrica de viviendas",
+    "descripcion": "Inspecciones y certificados oficiales.",
+    "fecha": "2025-03-16",
+    "detalles": {
+      "precio_hora": 35,
+      "servicios": ["Instalaciones", "Cuadros eléctricos"]
+    }
+  },
+  {
+    "id": "mock-62",
+    "categoria": "clases",
+    "subcategoria": "dibujo",
+    "nombre": "Arte Digital Pro",
+    "provincia": "Madrid",
+    "titulo": "Clases de ilustración digital con Photoshop",
+    "descripcion": "Aprende a crear ilustraciones profesionales.",
+    "fecha": "2025-03-17",
+    "detalles": {
+      "tecnicas": ["Digital"],
+      "online": true,
+      "precio_hora": 25
+    }
+  },
+  {
+    "id": "mock-63",
+    "categoria": "deporte",
+    "subcategoria": "pilates",
+    "nombre": "Pilates Center",
+    "provincia": "Barcelona",
+    "titulo": "Clases grupales de pilates en reformer",
+    "descripcion": "Grupos reducidos con atención personalizada.",
+    "fecha": "2025-03-18",
+    "detalles": {
+      "tipos": ["Máquinas", "Fusión"],
+      "online": false,
+      "precio_sesion": 18
+    }
+  },
+  {
+    "id": "mock-64",
+    "categoria": "mascotas",
+    "subcategoria": "adiestrador",
+    "nombre": "Dog Whisperer",
+    "provincia": "Valencia",
+    "titulo": "Adiestramiento canino en positivo",
+    "descripcion": "Métodos éticos sin castigos.",
+    "fecha": "2025-03-19",
+    "detalles": {
+      "tecnicas": ["Refuerzo positivo", "Socialización"],
+      "experiencia": "+10",
+      "precio_sesion": 40
+    }
+  },
+  {
+    "id": "mock-65",
+    "categoria": "belleza",
+    "subcategoria": "masajes",
+    "nombre": "Thai Massage Center",
+    "provincia": "Málaga",
+    "titulo": "Masaje tailandés tradicional",
+    "descripcion": "Técnicas ancestrales para equilibrar cuerpo y mente.",
+    "fecha": "2025-03-20",
+    "detalles": {
+      "tipos": ["Terapéutico", "Piedras calientes"],
+      "a_domicilio": false,
+      "precio_sesion": 45
+    }
+  }
+]

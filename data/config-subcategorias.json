@@ -1,0 +1,306 @@
+{
+  "plancha": {
+    "categoria": "hogar",
+    "titulo": "Plancha",
+    "campos": [
+      {
+        "id": "tipo_prenda",
+        "label": "¿Qué prendas planchas?",
+        "tipo": "checkbox",
+        "opciones": [
+          "Camisas",
+          "Pantalones",
+          "Sábanas",
+          "Ropa delicada",
+          "Ropa infantil"
+        ]
+      },
+      {
+        "id": "precio_hora",
+        "label": "Precio por hora (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "limpieza": {
+    "categoria": "hogar",
+    "titulo": "Limpieza",
+    "campos": [
+      {
+        "id": "tipo_limpieza",
+        "label": "Tipo de limpieza",
+        "tipo": "checkbox",
+        "opciones": [
+          "Limpieza general",
+          "Limpieza profunda",
+          "Limpieza puntual",
+          "Fin de obra"
+        ]
+      },
+      {
+        "id": "productos_propios",
+        "label": "¿Aportas productos de limpieza?",
+        "tipo": "boolean"
+      },
+      {
+        "id": "precio_hora",
+        "label": "Precio por hora (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "fontaneria": {
+    "categoria": "hogar",
+    "titulo": "Fontanería",
+    "campos": [
+      {
+        "id": "tipo_servicio",
+        "label": "Servicios que realizas",
+        "tipo": "checkbox",
+        "opciones": [
+          "Fugas",
+          "Desatascos",
+          "Instalaciones",
+          "Reparaciones"
+        ]
+      },
+      {
+        "id": "urgencias",
+        "label": "¿Atención de urgencias?",
+        "tipo": "boolean"
+      },
+      {
+        "id": "precio_servicio",
+        "label": "Precio desde (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "electricista": {
+    "categoria": "hogar",
+    "titulo": "Electricista",
+    "campos": [
+      {
+        "id": "tipo_trabajo",
+        "label": "Tipo de trabajos",
+        "tipo": "checkbox",
+        "opciones": [
+          "Instalaciones",
+          "Reparaciones",
+          "Iluminación",
+          "Cuadros eléctricos"
+        ]
+      },
+      {
+        "id": "certificado",
+        "label": "¿Tienes certificación profesional?",
+        "tipo": "boolean"
+      },
+      {
+        "id": "precio_servicio",
+        "label": "Precio desde (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "clases_particulares": {
+    "categoria": "clases",
+    "titulo": "Clases particulares",
+    "campos": [
+      {
+        "id": "asignaturas",
+        "label": "Asignaturas",
+        "tipo": "checkbox",
+        "opciones": [
+          "Matemáticas",
+          "Lengua",
+          "Inglés",
+          "Historia",
+          "Ciencias"
+        ]
+      },
+      {
+        "id": "modalidad",
+        "label": "Modalidad",
+        "tipo": "checkbox",
+        "opciones": [
+          "Presencial",
+          "Online"
+        ]
+      },
+      {
+        "id": "precio_hora",
+        "label": "Precio por hora (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "entrenador_personal": {
+    "categoria": "deporte",
+    "titulo": "Entrenador personal",
+    "campos": [
+      {
+        "id": "objetivos",
+        "label": "Objetivos",
+        "tipo": "checkbox",
+        "opciones": [
+          "Pérdida de peso",
+          "Tonificación",
+          "Rehabilitación",
+          "Rendimiento deportivo"
+        ]
+      },
+      {
+        "id": "lugar",
+        "label": "Lugar de entrenamiento",
+        "tipo": "checkbox",
+        "opciones": [
+          "Domicilio",
+          "Gimnasio",
+          "Exterior"
+        ]
+      },
+      {
+        "id": "precio_sesion",
+        "label": "Precio por sesión (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "paseador_perros": {
+    "categoria": "mascotas",
+    "titulo": "Paseador de perros",
+    "campos": [
+      {
+        "id": "experiencia",
+        "label": "Experiencia",
+        "tipo": "select",
+        "opciones": [
+          "0-1 años",
+          "1-5 años",
+          "5-10 años",
+          "+10 años"
+        ]
+      },
+      {
+        "id": "tipos_perros",
+        "label": "Perros que puedes pasear",
+        "tipo": "checkbox",
+        "opciones": [
+          "Cachorros",
+          "Senior",
+          "PPP",
+          "Gigantes (+40kg)"
+        ]
+      },
+      {
+        "id": "precio_paseo",
+        "label": "Precio por paseo (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "cuidador_mascotas": {
+    "categoria": "mascotas",
+    "titulo": "Cuidador de mascotas",
+    "campos": [
+      {
+        "id": "tipo_cuidado",
+        "label": "Tipo de cuidado",
+        "tipo": "checkbox",
+        "opciones": [
+          "Alojamiento nocturno",
+          "Cuidado a domicilio",
+          "Guardería de día"
+        ]
+      },
+      {
+        "id": "mascotas",
+        "label": "Mascotas que puedes cuidar",
+        "tipo": "checkbox",
+        "opciones": [
+          "Perros",
+          "Gatos",
+          "Mascotas especiales"
+        ]
+      },
+      {
+        "id": "precio_dia",
+        "label": "Precio por día (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "cuidado_personas": {
+    "categoria": "cuidados",
+    "titulo": "Cuidado de personas",
+    "campos": [
+      {
+        "id": "perfil",
+        "label": "Perfil atendido",
+        "tipo": "checkbox",
+        "opciones": [
+          "Personas mayores",
+          "Niños",
+          "Personas dependientes"
+        ]
+      },
+      {
+        "id": "experiencia",
+        "label": "Experiencia",
+        "tipo": "select",
+        "opciones": [
+          "0-1 años",
+          "1-5 años",
+          "5-10 años",
+          "+10 años"
+        ]
+      },
+      {
+        "id": "precio_hora",
+        "label": "Precio por hora (€)",
+        "tipo": "number"
+      }
+    ]
+  },
+
+  "informatica": {
+    "categoria": "otros",
+    "titulo": "Informática",
+    "campos": [
+      {
+        "id": "tipo_servicio",
+        "label": "Servicios",
+        "tipo": "checkbox",
+        "opciones": [
+          "Soporte técnico",
+          "Instalación de software",
+          "Clases básicas",
+          "Web y redes sociales"
+        ]
+      },
+      {
+        "id": "modalidad",
+        "label": "Modalidad",
+        "tipo": "checkbox",
+        "opciones": [
+          "Presencial",
+          "Remoto"
+        ]
+      },
+      {
+        "id": "precio_servicio",
+        "label": "Precio desde (€)",
+        "tipo": "number"
+      }
+    ]
+  }
+}

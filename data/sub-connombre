@@ -1,0 +1,80 @@
+{
+  "hogar": {
+    "items": [
+      { "nombre": "Limpieza", "imagen": "hogar_limpieza.jpg" },
+      { "nombre": "Plancha", "imagen": "hogar_plancha.jpg" },
+      { "nombre": "Montaje", "imagen": "hogar_montaje.jpg" },
+      { "nombre": "Mudanzas", "imagen": "hogar_mudanzas.jpg" },
+      { "nombre": "Fontanería", "imagen": "hogar_fontaneria.jpg" },
+      { "nombre": "Pintura", "imagen": "hogar_pintura.jpg" },
+      { "nombre": "Electricista", "imagen": "hogar_electricista.jpg" },
+      { "nombre": "Electrodomésticos", "imagen": "hogar_electrodomesticos.jpg" },
+      { "nombre": "Reformas", "imagen": "hogar_reformas.jpg" },
+      { "nombre": "Jardinería", "imagen": "hogar_jardineria.jpg" },
+      { "nombre": "Cerrajero", "imagen": "hogar_cerrajero.jpg" },
+      { "nombre": "Climatización", "imagen": "hogar_climatizacion.jpg" },
+      { "nombre": "Cocina", "imagen": "hogar_cocina.jpg" }
+    ]
+  },
+
+  "clases": {
+    "items": [
+      { "nombre": "Colegio", "imagen": "clases_colegio.jpg" },
+      { "nombre": "Idiomas", "imagen": "clases_idiomas.jpg" },
+      { "nombre": "Música", "imagen": "clases_musica.jpg" },
+      { "nombre": "Dibujo", "imagen": "clases_dibujo.jpg" },
+      { "nombre": "Baile", "imagen": "clases_baile.jpg" },
+      { "nombre": "E.S.O", "imagen": "clases_eso.jpg" }
+    ]
+  },
+
+  "deporte": {
+    "items": [
+      { "nombre": "Boxeo", "imagen": "deporte_boxeo.jpg" },
+      { "nombre": "Entrenador personal", "imagen": "deporte_entrenador_personal.jpg" },
+      { "nombre": "Yoga", "imagen": "deporte_yoga.jpg" },
+      { "nombre": "Pilates", "imagen": "deporte_pilates.jpg" },
+      { "nombre": "Pádel", "imagen": "deporte_padel.jpg" },
+      { "nombre": "Tenis", "imagen": "deporte_tenis.jpg" }
+    ]
+  },
+
+  "mascotas": {
+    "items": [
+      { "nombre": "Paseador", "imagen": "mascotas_paseador.jpg" },
+      { "nombre": "Cuidador", "imagen": "mascotas_cuidador.jpg" },
+      { "nombre": "Peluquería", "imagen": "mascotas_peluqueria.jpg" },
+      { "nombre": "Adiestrador", "imagen": "mascotas_adiestrador.jpg" },
+      { "nombre": "Conducta", "imagen": "mascotas_conducta.jpg" }
+    ]
+  },
+
+  "belleza": {
+    "items": [
+      { "nombre": "Depilación", "imagen": "belleza_depilacion.jpg" },
+      { "nombre": "Uñas", "imagen": "belleza_unas.jpg" },
+      { "nombre": "Peluquería", "imagen": "belleza_peluqueria.jpg" },
+      { "nombre": "Maquillaje", "imagen": "belleza_maquillaje.jpg" },
+      { "nombre": "Facial", "imagen": "belleza_facial.jpg" },
+      { "nombre": "Masajes", "imagen": "belleza_masajes.jpg" }
+    ]
+  },
+
+  "cuidados": {
+    "items": [
+      { "nombre": "Niños", "imagen": "cuidados_ninos.jpg" },
+      { "nombre": "Ancianos", "imagen": "cuidados_ancianos.jpg" }
+    ]
+  },
+
+  "otros": {
+    "items": [
+      { "nombre": "Foto", "imagen": "otros_foto.jpg" },
+      { "nombre": "Vídeo", "imagen": "otros_video.jpg" },
+      { "nombre": "Tattoo", "imagen": "otros_tattoo.jpg" },
+      { "nombre": "Informática", "imagen": "otros_informatica.jpg" },
+      { "nombre": "Redes sociales", "imagen": "otros_redes_sociales.jpg" },
+      { "nombre": "Web", "imagen": "otros_web.jpg" }
+    ]
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "hogar": {
+    "limpieza": {
+      "titulo": "Limpieza",
+      "campos": [
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_limpieza",
+          "label": "Tipo de limpieza",
+          "tipo": "checkbox-group",
+          "opciones": [
+            "Limpieza general",
+            "Limpieza profunda",
+            "Limpieza por horas",
+            "Limpieza de fin de obra"
+          ]
+        },
+        {
+          "id": "materiales",
+          "label": "¿Aporta materiales?",
+          "tipo": "boolean"
+        },
+        {
+          "id": "experiencia",
+          "label": "Años de experiencia",
+          "tipo": "select",
+          "opciones": ["Sin experiencia", "1-2", "3-5", "6-10", "+10"]
+        }
+      ]
+    },
+    "plancha": {
+      "titulo": "Plancha",
+      "campos": [
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_prendas",
+          "label": "Tipo de prendas",
+          "tipo": "checkbox-group",
+          "opciones": [
+            "Ropa diaria",
+            "Camisas",
+            "Prendas delicadas",
+            "Ropa de cama"
+          ]
+        },
+        {
+          "id": "servicio_domicilio",
+          "label": "Servicio a domicilio",
+          "tipo": "boolean"
+        }
+      ]
+    },
+    "montaje": {
+      "titulo": "Montaje",
+      "campos": [
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_montajes",
+          "label": "Tipo de montajes",
+          "tipo": "checkbox-group",
+          "opciones": ["Muebles", "Cuadros", "Estanterías", "Armarios"]
+        },
+        {
+          "id": "herramientas",
+          "label": "¿Aporta herramientas?",
+          "tipo": "boolean"
+        }
+      ]
+    },
+    "mudanzas": {
+      "titulo": "Mudanzas",
+      "campos": [
+        {
+          "id": "precio_servicio",
+          "label": "Precio orientativo (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_mudanza",
+          "label": "Tipo de mudanza",
+          "tipo": "checkbox-group",
+          "opciones": ["Local", "Provincial", "Nacional", "Internacional"]
+        },
+        {
+          "id": "vehiculo",
+          "label": "¿Aporta vehículo?",
+          "tipo": "boolean"
+        }
+      ]
+    },
+    "fontaneria": {
+      "titulo": "Fontanería",
+      "campos": [
+        {
+          "id": "precio_servicio",
+          "label": "Precio orientativo (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_trabajos",
+          "label": "Trabajos realizados",
+          "tipo": "checkbox-group",
+          "opciones": ["Fugas", "Atascos", "Instalaciones", "Reparaciones urgentes"]
+        },
+        {
+          "id": "urgencias",
+          "label": "Disponibilidad urgente",
+          "tipo": "boolean"
+        }
+      ]
+    },
+    "pintura": {
+      "titulo": "Pintura",
+      "campos": [
+        {
+          "id": "precio_metro",
+          "label": "Precio por m² (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_pintura",
+          "label": "Tipo de pintura",
+          "tipo": "checkbox-group",
+          "opciones": ["Interior", "Exterior", "Texturizada", "Decorativa"]
+        },
+        {
+          "id": "materiales",
+          "label": "¿Aporta materiales?",
+          "tipo": "boolean"
+        }
+      ]
+    },
+    "electricista": {
+      "titulo": "Electricista",
+      "campos": [
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Instalaciones", "Reparaciones", "Iluminación", "Cuadros eléctricos"]
+        }
+      ]
+    },
+    "electrodomesticos": {
+      "titulo": "Electrodomésticos",
+      "campos": [
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_electrodomesticos",
+          "label": "Electrodomésticos que repara",
+          "tipo": "checkbox-group",
+          "opciones": ["Frigoríficos", "Lavadoras", "Hornos", "Lavavajillas"]
+        }
+      ]
+    },
+    "reformas": {
+      "titulo": "Reformas",
+      "campos": [
+        {
+          "id": "precio_presupuesto",
+          "label": "Presupuesto base (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_reformas",
+          "label": "Tipo de reformas",
+          "tipo": "checkbox-group",
+          "opciones": ["Cocinas", "Baños", "Habitaciones", "Integral"]
+        }
+      ]
+    },
+    "jardineria": {
+      "titulo": "Jardinería",
+      "campos": [
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Poda", "Riego", "Diseño", "Mantenimiento"]
+        }
+      ]
+    },
+    "cerrajero": {
+      "titulo": "Cerrajero",
+      "campos": [
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Aperturas", "Cambio de cerraduras", "Copias de llaves", "Sistemas de seguridad"]
+        }
+      ]
+    },
+    "climatizacion": {
+      "titulo": "Climatización",
+      "campos": [
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "tipo_instalaciones",
+          "label": "Tipo de instalaciones",
+          "tipo": "checkbox-group",
+          "opciones": ["Aire acondicionado", "Calefacción", "Ventilación", "Mantenimiento"]
+        }
+      ]
+    },
+    "cocina": {
+      "titulo": "Cocina",
+      "campos": [
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        },
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Chef a domicilio", "Catering", "Clases de cocina", "Menús especiales"]
+        }
+      ]
+    }
+  },
+
+  "clases": {
+    "colegio": {
+      "titulo": "Clases de Colegio",
+      "campos": [
+        {
+          "id": "asignaturas",
+          "label": "Asignaturas",
+          "tipo": "checkbox-group",
+          "opciones": ["Matemáticas", "Lengua", "Inglés", "Historia", "Ciencias"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "titulo",
+          "label": "Profesor con título",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "idiomas": {
+      "titulo": "Clases de Idiomas",
+      "campos": [
+        {
+          "id": "idiomas",
+          "label": "Idiomas que enseña",
+          "tipo": "checkbox-group",
+          "opciones": ["Inglés", "Francés", "Alemán", "Italiano", "Chino"]
+        },
+        {
+          "id": "niveles",
+          "label": "Niveles",
+          "tipo": "checkbox-group",
+          "opciones": ["Principiante", "Intermedio", "Avanzado", "Conversación"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "musica": {
+      "titulo": "Clases de Música",
+      "campos": [
+        {
+          "id": "instrumentos",
+          "label": "Instrumentos",
+          "tipo": "checkbox-group",
+          "opciones": ["Guitarra", "Piano", "Batería", "Violín", "Canto"]
+        },
+        {
+          "id": "niveles",
+          "label": "Niveles",
+          "tipo": "checkbox-group",
+          "opciones": ["Principiante", "Intermedio", "Avanzado"]
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "dibujo": {
+      "titulo": "Clases de Dibujo",
+      "campos": [
+        {
+          "id": "tecnicas",
+          "label": "Técnicas",
+          "tipo": "checkbox-group",
+          "opciones": ["Lápiz", "Acuarela", "Óleo", "Digital", "Carboncillo"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "baile": {
+      "titulo": "Clases de Baile",
+      "campos": [
+        {
+          "id": "estilos",
+          "label": "Estilos",
+          "tipo": "checkbox-group",
+          "opciones": ["Salsa", "Bachata", "Flamenco", "Tango", "Hip Hop"]
+        },
+        {
+          "id": "niveles",
+          "label": "Niveles",
+          "tipo": "checkbox-group",
+          "opciones": ["Principiante", "Intermedio", "Avanzado"]
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "eso": {
+      "titulo": "Clases de E.S.O",
+      "campos": [
+        {
+          "id": "asignaturas",
+          "label": "Asignaturas",
+          "tipo": "checkbox-group",
+          "opciones": ["Matemáticas", "Lengua", "Inglés", "Física", "Química"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    }
+  },
+
+  "deporte": {
+    "boxeo": {
+      "titulo": "Boxeo",
+      "campos": [
+        {
+          "id": "niveles",
+          "label": "Niveles",
+          "tipo": "checkbox-group",
+          "opciones": ["Principiante", "Intermedio", "Avanzado", "Competitivo"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "entrenador": {
+      "titulo": "Entrenador personal",
+      "campos": [
+        {
+          "id": "especialidad",
+          "label": "Especialidad",
+          "tipo": "checkbox-group",
+          "opciones": ["Fitness", "Yoga", "Pilates", "Running"]
+        },
+        {
+          "id": "online",
+          "label": "Entrenamientos online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "yoga": {
+      "titulo": "Yoga",
+      "campos": [
+        {
+          "id": "estilos",
+          "label": "Estilos",
+          "tipo": "checkbox-group",
+          "opciones": ["Hatha", "Vinyasa", "Ashtanga", "Yin"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "pilates": {
+      "titulo": "Pilates",
+      "campos": [
+        {
+          "id": "tipos",
+          "label": "Tipos",
+          "tipo": "checkbox-group",
+          "opciones": ["Mat", "Máquinas", "Fusión"]
+        },
+        {
+          "id": "online",
+          "label": "Clases online",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "padel": {
+      "titulo": "Pádel",
+      "campos": [
+        {
+          "id": "niveles",
+          "label": "Niveles",
+          "tipo": "checkbox-group",
+          "opciones": ["Principiante", "Intermedio", "Avanzado"]
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "tenis": {
+      "titulo": "Tenis",
+      "campos": [
+        {
+          "id": "niveles",
+          "label": "Niveles",
+          "tipo": "checkbox-group",
+          "opciones": ["Principiante", "Intermedio", "Avanzado"]
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    }
+  },
+
+  "mascotas": {
+    "paseador": {
+      "titulo": "Paseador de perros",
+      "campos": [
+        {
+          "id": "experiencia",
+          "label": "Experiencia",
+          "tipo": "select",
+          "opciones": ["Sin experiencia", "1-2", "3-5", "6-10", "+10"]
+        },
+        {
+          "id": "tipos_perros",
+          "label": "Tipos de perros",
+          "tipo": "checkbox-group",
+          "opciones": ["Cachorros", "Senior", "PPP", "Gigantes (+40kg)"]
+        },
+        {
+          "id": "precio_paseo",
+          "label": "Precio por paseo (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "cuidador": {
+      "titulo": "Cuidador de mascotas",
+      "campos": [
+        {
+          "id": "tipo_cuidado",
+          "label": "Tipo de cuidado",
+          "tipo": "checkbox-group",
+          "opciones": ["A domicilio", "Guardería de día", "Alojamiento nocturno"]
+        },
+        {
+          "id": "experiencia",
+          "label": "Experiencia cuidando mascotas",
+          "tipo": "select",
+          "opciones": ["1-2", "3-5", "6-10", "+10"]
+        }
+      ]
+    },
+    "peluqueria_mascotas": {
+      "titulo": "Peluquería de mascotas",
+      "campos": [
+        {
+          "id": "tipo_mascotas",
+          "label": "Tipos de mascotas",
+          "tipo": "checkbox-group",
+          "opciones": ["Perros", "Gatos", "Otros"]
+        },
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Corte", "Baño", "Secado", "Cepillado"]
+        },
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "adiestrador": {
+      "titulo": "Adiestrador de perros",
+      "campos": [
+        {
+          "id": "tecnicas",
+          "label": "Técnicas",
+          "tipo": "checkbox-group",
+          "opciones": ["Refuerzo positivo", "Obediencia básica", "Socialización"]
+        },
+        {
+          "id": "experiencia",
+          "label": "Años de experiencia",
+          "tipo": "select",
+          "opciones": ["1-2", "3-5", "6-10", "+10"]
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "conducta": {
+      "titulo": "Modificación de conducta",
+      "campos": [
+        {
+          "id": "problemas",
+          "label": "Problemas de conducta",
+          "tipo": "checkbox-group",
+          "opciones": ["Agresividad", "Ansiedad", "Miedo", "Ladridos excesivos"]
+        },
+        {
+          "id": "experiencia",
+          "label": "Años de experiencia",
+          "tipo": "select",
+          "opciones": ["1-2", "3-5", "6-10", "+10"]
+        },
+        {
+          "id": "precio_consulta",
+          "label": "Precio por consulta (€)",
+          "tipo": "number"
+        }
+      ]
+    }
+  },
+
+  "belleza": {
+    "depilacion": {
+      "titulo": "Depilación",
+      "campos": [
+        {
+          "id": "tecnica",
+          "label": "Técnicas",
+          "tipo": "checkbox-group",
+          "opciones": ["Cera", "Láser", "Hilo", "Cuchilla"]
+        },
+        {
+          "id": "zonas",
+          "label": "Zonas del cuerpo",
+          "tipo": "checkbox-group",
+          "opciones": ["Cejas", "Piernas", "Axilas", "Ingle", "Facial"]
+        },
+        {
+          "id": "precio_zona",
+          "label": "Precio por zona (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "unas": {
+      "titulo": "Uñas",
+      "campos": [
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Manicura", "Pedicura", "Uñas acrílicas", "Gel", "Decoración"]
+        },
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "peluqueria": {
+      "titulo": "Peluquería",
+      "campos": [
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Corte", "Tinte", "Mechas", "Tratamientos", "Peinados"]
+        },
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "maquillaje": {
+      "titulo": "Maquillaje",
+      "campos": [
+        {
+          "id": "ocasiones",
+          "label": "Ocasiones",
+          "tipo": "checkbox-group",
+          "opciones": ["Bodas", "Eventos", "Fotografía", "Día a día"]
+        },
+        {
+          "id": "a_domicilio",
+          "label": "Servicio a domicilio",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_servicio",
+          "label": "Precio por servicio (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "facial": {
+      "titulo": "Facial",
+      "campos": [
+        {
+          "id": "tratamientos",
+          "label": "Tratamientos",
+          "tipo": "checkbox-group",
+          "opciones": ["Limpieza", "Hidratación", "Antiedad", "Acné"]
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "masajes": {
+      "titulo": "Masajes",
+      "campos": [
+        {
+          "id": "tipos",
+          "label": "Tipos de masaje",
+          "tipo": "checkbox-group",
+          "opciones": ["Relajante", "Deportivo", "Terapéutico", "Piedras calientes"]
+        },
+        {
+          "id": "a_domicilio",
+          "label": "Servicio a domicilio",
+          "tipo": "boolean"
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    }
+  },
+
+  "cuidados": {
+    "ninos": {
+      "titulo": "Cuidado de niños",
+      "campos": [
+        {
+          "id": "edad",
+          "label": "Edades que cuida",
+          "tipo": "checkbox-group",
+          "opciones": ["Bebés", "3-6 años", "7-12 años"]
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "ancianos": {
+      "titulo": "Cuidado de ancianos",
+      "campos": [
+        {
+          "id": "tipo_cuidado",
+          "label": "Tipo de cuidado",
+          "tipo": "checkbox-group",
+          "opciones": ["Acompañamiento", "Higiene", "Medicaciones"]
+        },
+        {
+          "id": "experiencia",
+          "label": "Experiencia",
+          "tipo": "select",
+          "opciones": ["1-2", "3-5", "+5"]
+        }
+      ]
+    }
+  },
+
+  "otros": {
+    "foto": {
+      "titulo": "Fotografía",
+      "campos": [
+        {
+          "id": "tipo_fotografia",
+          "label": "Tipo de fotografía",
+          "tipo": "checkbox-group",
+          "opciones": ["Retratos", "Bodas", "Eventos", "Producto", "Paisajes"]
+        },
+        {
+          "id": "precio_sesion",
+          "label": "Precio por sesión (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "video": {
+      "titulo": "Vídeo",
+      "campos": [
+        {
+          "id": "tipo_video",
+          "label": "Tipo de vídeo",
+          "tipo": "checkbox-group",
+          "opciones": ["Eventos", "Corporativo", "Publicitario", "Bodas"]
+        },
+        {
+          "id": "precio_proyecto",
+          "label": "Precio por proyecto (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "tattoo": {
+      "titulo": "Tattoo",
+      "campos": [
+        {
+          "id": "estilos",
+          "label": "Estilos",
+          "tipo": "checkbox-group",
+          "opciones": ["Tradicional", "Realista", "Acuarela", "Geométrico"]
+        },
+        {
+          "id": "precio_hora",
+          "label": "Precio por hora (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "informatica": {
+      "titulo": "Informática",
+      "campos": [
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Reparación", "Formateo", "Redes", "Web"]
+        },
+        {
+          "id": "precio_servicio",
+          "label": "Precio orientativo (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "redes_sociales": {
+      "titulo": "Redes sociales",
+      "campos": [
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Gestión", "Contenido", "Publicidad", "Community Management"]
+        },
+        {
+          "id": "precio_mensual",
+          "label": "Precio mensual (€)",
+          "tipo": "number"
+        }
+      ]
+    },
+    "web": {
+      "titulo": "Desarrollo Web",
+      "campos": [
+        {
+          "id": "servicios",
+          "label": "Servicios",
+          "tipo": "checkbox-group",
+          "opciones": ["Diseño", "Programación", "Mantenimiento", "SEO"]
+        },
+        {
+          "id": "precio_proyecto",
+          "label": "Precio por proyecto (€)",
+          "tipo": "number"
+        }
+      ]
+    }
+  }
+}

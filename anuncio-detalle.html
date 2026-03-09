@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Detalle del anuncio · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="has-fixed-bottom-nav">
+
+  <!-- ================= HEADER ================= -->
+  <header class="detalle-header">
+    <button class="btn-volver" aria-label="Volver">‹</button>
+    <h1>Detalle del anuncio</h1>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="detalle-main">
+
+    <!-- ===== PERFIL ===== -->
+    <section class="perfil-header">
+      <div class="avatar-wrapper">
+        <div class="avatar-grande"></div>
+
+        <!-- FAVORITO -->
+        <button class="btn-favorito" aria-label="Añadir a favoritos">♡</button>
+      </div>
+
+      <h2 id="detalle-nombre">Isabel</h2>
+      <span class="sub" id="detalle-sub">Limpieza</span>
+    </section>
+
+    <!-- ===== SOBRE MI / SERVICIO ===== -->
+    <section class="seccion">
+      <h3>Sobre el servicio</h3>
+      <p id="detalle-descripcion"></p>
+    </section>
+
+    <!-- ===== LOCALIZACIÓN (opcional ahora) ===== -->
+    <section class="seccion">
+      <h3>Localización</h3>
+      <div class="pill" id="detalle-provincia">—</div>
+    </section>
+
+    <!-- ===== DETALLES DINÁMICOS ===== -->
+    <section class="seccion">
+      <h3>Detalles</h3>
+      <div id="detalle-campos"></div>
+    </section>
+
+    <!-- ===== CTA FINAL (NO FIJO) ===== -->
+    <section class="detalle-cta">
+      <div class="detalle-precio">
+        <strong id="detalle-precio">—</strong>
+        <small id="detalle-precio-sub"></small>
+      </div>
+
+      <button class="btn-principal">Contactar</button>
+    </section>
+
+  </main>
+
+  <!-- ================= BOTTOM NAV ================= -->
+  <div id="bottom-nav"></div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="js/app.js"></script>
+  <script src="js/bottom_nav.js"></script>
+  <script src="js/anuncio-detalle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Documento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body class="perfil no-bottom-nav">
+
+  <!-- HEADER -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title" id="tituloDocumento">Documento</h2>
+  </header>
+
+  <!-- MAIN -->
+  <main class="list-main pdf-main">
+
+    <iframe id="visorPdf">
+    </iframe>
+
+  </main>
+
+  <script src="../js/app.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const doc = params.get('doc');
+    const title = params.get('title');
+
+    const mapaDocs = {
+      terminos: '../assets/docs/terminos.pdf',
+      privacidad: '../assets/docs/privacidad.pdf',
+      cookies: '../assets/docs/cookies.pdf'
+    };
+
+    if (title) {
+      document.getElementById('tituloDocumento').textContent = title;
+    }
+
+    if (doc && mapaDocs[doc]) {
+      document.getElementById('visorPdf').src = mapaDocs[doc];
+    }
+
+    const btnVolver = document.querySelector('.btn-volver');
+    if (btnVolver) {
+      btnVolver.addEventListener('click', () => {
+        history.back();
+      });
+    }
+  </script>
+
+</body>
+
+</html>

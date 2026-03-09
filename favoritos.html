@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Favoritos · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="has-fixed-bottom-nav favoritos-page">
+
+  <!-- ================= HEADER ================= -->
+  <header class="list-header">
+    <h2 class="list-title">Favoritos</h2>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="main list-main">
+
+    <!-- LISTA -->
+    <section id="lista-anuncios" class="cards"></section>
+
+    <!-- EMPTY STATE -->
+    <div id="empty-state" class="empty-state hidden">
+      <p>Aún no has añadido ningún favorito ❤️</p>
+    </div>
+
+  </main>
+
+  <!-- ================= BOTTOM NAV ================= -->
+  <div id="bottom-nav"></div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="js/app.js"></script>
+  <script src="js/bottom_nav.js"></script>
+  <script src="js/favoritos.js"></script>
+  <script src="js/guard.js"></script>
+
+</body>
+
+</html>

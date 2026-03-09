@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Editar perfil · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body class="perfil">
+
+  <!-- ================= HEADER ================= -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">Editar perfil</h2>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="list-main perfil-main form-main">
+
+    <form class="form-editar-perfil">
+
+      <!-- ===== CONTENIDO CENTRADO ===== -->
+      <section class="form-content">
+
+        <!-- FOTO PERFIL -->
+        <section class="perfil-header-editar-perfil">
+          <div class="avatar-wrapper">
+
+            <img class="avatar-grande" id="avatarPerfil" src="../assets/icons/usuario.png" alt="Foto de perfil">
+
+            <input type="file" id="inputAvatar" accept="image/*" hidden>
+
+            <button type="button" class="btn-editar-avatar" aria-label="Cambiar foto">
+              <img src="../assets/icons/editar_perfil.png" alt="">
+            </button>
+
+          </div>
+        </section>
+
+        <!-- CAMPOS -->
+        <label>
+          Nombre y apellidos
+          <input type="text" id="inputNombre" placeholder="Ana Núñez Rejón">
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="inputEmail" placeholder="ana@email.com">
+        </label>
+
+      </section>
+
+      <!-- ===== ACCIONES ABAJO ===== -->
+      <footer class="form-actions">
+        <button type="submit" class="btn-guardar">
+          Guardar cambios
+        </button>
+        <div class="btn-eliminar-cuenta"> <button type="button" class="btn-eliminar-cuenta">
+            Eliminar cuenta de forma permanente
+          </button></div>
+
+      </footer>
+
+    </form>
+
+  </main>
+
+  <!-- ================= MODAL ELIMINAR CUENTA ================= -->
+  <div id="modal-eliminar-cuenta" class="modal hidden">
+    <div class="modal-overlay"></div>
+
+    <div class="modal-box">
+      <p class="modal-text">
+        ¿Seguro que quieres eliminar tu cuenta?<br>
+        Esta acción no se puede deshacer.
+      </p>
+
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="btn-cancelar-eliminar">
+          Cancelar
+        </button>
+        <button class="modal-btn danger" id="btn-confirmar-eliminar">
+          Eliminar
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="../js/app.js"></script>
+  <script src="../js/perfil.js"></script>
+  <script src="../js/perfil/editar-perfil.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Anuncios · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/mobile.css" />
+</head>
+
+<body class="has-fixed-bottom-nav">
+
+  <!-- HEADER de listado -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">‹</button>
+
+    <h2 class="list-title" id="list-title">Anuncios</h2>
+
+    <button class="btn-filtros" aria-label="Filtros">
+      ☰ <span>Filtros</span>
+    </button>
+  </header>
+
+  <main class="main list-main">
+    <section class="cards" id="lista-anuncios">
+      <!-- JS pinta aquí -->
+    </section>
+
+    <p class="empty-state hidden" id="empty-state">
+      No hay anuncios guardados para esta subcategoría todavía.
+    </p>
+  </main>
+
+
+  <!-- PANEL FILTROS -->
+  <aside class="filtros-panel hidden" id="panel-filtros">
+    <header class="filtros-header">
+      <button id="cerrar-filtros">✕</button>
+      <span>Borrar filtros</span>
+    </header>
+
+    <form id="form-filtros"></form>
+
+    <button class="btn-principal filtros-btn" id="aplicar-filtros">
+      Mostrar profesionales
+    </button>
+  </aside>
+
+  <div id="bottom-nav"></div>
+
+  <script src="js/app.js"></script>
+  <script src="js/bottom_nav.js"></script>
+  <script src="js/anuncios.js"></script>
+  <script src="js/filtros.js"></script>
+
+
+</body>
+
+</html>

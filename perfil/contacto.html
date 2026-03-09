@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contacta con nosotros · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body class="perfil">
+
+  <!-- ================= HEADER ================= -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">Contacta con nosotros</h2>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="list-main perfil-main form-main">
+
+    <section class="auth-hero">
+      <img src="../assets/images/welcome.jpg" alt="Bienvenida iMirly" class="auth-hero-img" />
+    </section>
+
+    <form class="form-editar-perfil">
+
+      <!-- ===== CONTENIDO CENTRADO ===== -->
+      <section class="form-content">
+
+        <label>
+          <input type="email" placeholder="tu@email.com">
+        </label>
+
+        <label>
+          <input type="text" placeholder="Asunto">
+        </label>
+
+        <label>
+          <input type="tel" placeholder="Escribe tu teléfono">
+        </label>
+
+        <label>
+
+          <textarea rows="4" placeholder="¿En qué podemos ayudarte?"></textarea>
+        </label>
+
+      </section>
+
+      <!-- ===== ACCIONES ABAJO ===== -->
+      <footer class="form-actions">
+        <button type="submit" class="btn-guardar">
+          Enviar
+        </button>
+      </footer>
+
+    </form>
+
+  </main>
+
+  <script>
+    const form = document.querySelector('.form-editar-perfil');
+
+    if (form) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        alert(
+          'Mensaje enviado\n\nNos pondremos en contacto contigo lo antes posible.'
+        );
+
+        form.reset();
+      });
+    }
+
+    const btnVolver = document.querySelector('.btn-volver');
+    if (btnVolver) {
+      btnVolver.addEventListener('click', () => history.back());
+    }
+
+  </script>
+
+</body>
+
+</html>

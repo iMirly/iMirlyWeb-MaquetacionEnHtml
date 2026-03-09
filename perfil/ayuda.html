@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ayuda · iMirly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+
+<body class="perfil">
+
+  <!-- ================= HEADER ================= -->
+  <header class="list-header">
+    <button class="btn-volver" aria-label="Volver">
+      <img src="../assets/icons/flecha_izquierda.png" alt="Volver">
+    </button>
+    <h2 class="list-title">Ayuda</h2>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main class="list-main main">
+
+    <h2 class="titulo-ayuda">¿Cómo podemos ayudarte?</h2>
+
+    <section class="ayuda-lista">
+
+      <a href="../404.html" class="ayuda-card">
+        <img src="../assets/icons/conversacion.png" alt="">
+        <span>Problemas con un servicio</span>
+      </a>
+
+      <a href="../404.html" class="ayuda-card">
+        <img src="../assets/icons/bolsa_de_dinero.png" alt="">
+        <span>Cobros de servicios</span>
+      </a>
+
+      <a href="../404.html" class="ayuda-card">
+        <img src="../assets/icons/verificacion.png" alt="">
+        <span>Verificación de mi perfil</span>
+      </a>
+
+      <a href="../404.html" class="ayuda-card">
+        <img src="../assets/icons/mas_informacion_oscuro.png" alt="">
+        <span>Otros problemas</span>
+      </a>
+
+    </section>
+
+  </main>
+
+  <script>
+    const btnVolver = document.querySelector('.btn-volver');
+    if (btnVolver) {
+      btnVolver.addEventListener('click', () => history.back());
+    }
+  </script>
+
+</body>
+
+</html>
