@@ -287,18 +287,6 @@ xdg-open index.html
   </table>
 </div>
 
-# 🎯 Mejoras futuras
-
-- 🔗 **Conexión con backend real** (API REST de iMirlyAppBackend)
-- 🔔 **Service Worker** para funcionamiento offline completo
-- 🗺️ **Geolocalización** real para mostrar servicios cercanos
-- 💳 **Integración de pagos** simulada (Stripe/PayPal)
-- 🌙 **Modo oscuro** completo con toggle
-- 📸 **Subida de imágenes** a cloud storage
-- 🧪 **Tests E2E** con Playwright o Cypress
-- ♿ **Mejora de accesibilidad** (WCAG 2.1 AA)
-- 🌍 **Internacionalización** (i18n) para multiidioma
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6c5ce7,100:3f51b5&height=100&section=footer" width="100%"/>
 </div>
