@@ -5,12 +5,17 @@
 <br>
 
 <div align="center">
-  <a href="https://appimirly.github.io/iMirlyWeb/index.html" target="_blank">
+  <a href="https://imirly.github.io/iMirlyWeb-MaquetacionEnHtml/" target="_blank">
     <img src="https://img.shields.io/badge/Ver_Demo-6c5ce7?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
   <a href="https://github.com/iMirly/iMirlyWeb-MaquetacionEnHtml" target="_blank">
     <img src="https://img.shields.io/badge/Código-3f51b5?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+</div>
+
+<br>
+
+<div align="center">
   <img src="https://img.shields.io/badge/Status-MVP-FFA500?style=for-the-badge" alt="Status" />
   <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-6c5ce7?style=for-the-badge&logo=html5&logoColor=white" alt="Frontend" />
   <img src="https://img.shields.io/badge/PWA-Ready-3f51b5?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA" />
@@ -213,7 +218,7 @@ iMirlyWeb/
 ### Probar la versión desplegada sin necesidad de clonar:
 
 <p align="center">
-  <a href="https://appimirly.github.io/iMirlyWeb/index.html">
+  <a href="https://imirly.github.io/iMirlyWeb-MaquetacionEnHtml/">
     <img src="https://img.shields.io/badge/🌐_Abrir-6c5ce7?style=for-the-badge&labelColor=3f51b5"/>
   </a>
 </p>
@@ -244,7 +249,7 @@ xdg-open index.html
 
 ---
 
-## 📚 Lo que aprendí con este proyecto
+## 📚 Lo que aprendimos con este proyecto
 
 - **HTML semántico y accesibilidad:** Estructura correcta de landmarks, ARIA labels y navegación por teclado
 - **CSS moderno:** Variables CSS, Flexbox, Grid, media queries y diseño mobile-first
@@ -287,10 +292,39 @@ xdg-open index.html
   </table>
 </div>
 
+## 👥 Equipo
+
+<p align="center"><b>Trabajo Fin de Ciclo DAM — New Digital Talent, Granada · 2025</b></p>
+<p align="center">
+  <a href="https://github.com/AnaNunezRejon">
+    <img src="https://img.shields.io/badge/Ana_Núñez-6c5ce7?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/Anyeel">
+    <img src="https://img.shields.io/badge/Ángel_Millán-3f51b5?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/evagr11">
+    <img src="https://img.shields.io/badge/Eva_Gallardo-3f51b5?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/nicocorbi">
+    <img src="https://img.shields.io/badge/Nicolás_Corbi-6c5ce7?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub><b>Tutores:</b> Guillermo Sandoval Schmidt · Javier Martín Gómez</sub>
+</p>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6c5ce7,100:3f51b5&height=100&section=footer" width="100%"/>
 </div>
 
 <div align="center">
-  <sub>© 2025 iMirly — Todos los derechos reservados</sub>
+  <sub>© 2026 iMirly — Todos los derechos reservados</sub>
 </div>
